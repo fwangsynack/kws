@@ -1,7 +1,17 @@
 A simple go web framework. 
 
 ```go
+package main
 
+import (
+        "github.com/fwsyndack/kws"
+        "github.com/fwsyndack/kws/middleware"
+        "fmt"
+        "log"
+        "net/http"
+        "strconv"
+        "time"
+)
 
 func main() {
 
